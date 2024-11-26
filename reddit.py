@@ -6,11 +6,11 @@ import time
 # Set up Reddit client (ensure to replace with your own credentials)
 # Reddit app credentials (update these with your new details)
 reddit = praw.Reddit(
-    client_id='XDYfYRQ3qwtyUS2y1pNz9Q',  # Your client ID
-    client_secret='aCyCW5Tg_gFozd9mXIMFCfAEmrNG-g',  # Your secret
+    client_id='Your client ID',  # Your client ID
+    client_secret='Your secret',  # Your secret
     user_agent='automated_social:v1.0 (by u/Puzzled-Path9768)',  # Your user agent
-    username='Puzzled-Path9768',  # Your Reddit username
-    password='Usar@71_'  # Your Reddit password
+    username='Reddit username',  # Your Reddit username
+    password='Reddit password'  # Your Reddit password
 )
 
 
