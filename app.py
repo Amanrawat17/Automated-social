@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 class YouTubeOperations:
     def __init__(self):
         load_dotenv()
-        self.api_key = os.getenv('AIzaSyD4WotYONF7bOTtwFsm1sgVUVYWVRrfuf8')  # Make sure the API_KEY is stored in .env file
+        self.api_key = os.getenv('AIzaSyD4WotYONF7bOTtwFsm1sVUVYWVRrfuf8')  # Make sure the API_KEY is stored in .env file
         self.credentials = None
         self.youtube = None
         self.channel_id = None
